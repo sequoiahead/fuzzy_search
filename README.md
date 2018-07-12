@@ -1,8 +1,8 @@
 # html analyzer
-#Usage
+# Usage
 _java -jar htmlnlz-1.0-SNAPSHOT.jar \<originalFilePath> \<otherFilePath>_
 
-#Example output
+# Example output
 #### input/sample-1-evil-gemini.html
 INFO [main] (Application.java37) - Xpath is: html[lang="en"] > body[] > div[id="wrapper"] > div[id="page-wrapper"] > div[class="row"] > div[class="col-lg-8"] > div[class="panel panel-default"] > div[class="panel-body"] > a[class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"]
 
